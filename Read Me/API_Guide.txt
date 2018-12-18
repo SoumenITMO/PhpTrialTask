@@ -1,0 +1,80 @@
+
+
+      How to Use this API :
+
+	  ------------- API AUTHENTICATION ---------------------
+	  
+	  1. Fetch Token by Client ID using GET Method 
+		 example : URL/public/api/auth 
+		           parameter : client_id 
+				   value : 1
+				   method : Get 
+		 
+		 Result : It will return json response if valid Client ID has been provided it will return a token. 
+
+		 
+		 
+      2. To validate the token following way should be use
+         example :  URL/public/api/setAccess
+                    parameter : token
+					value : [ Please provide the token that return as json response ]
+					method : Get
+				
+	  --------------------------------------------------------
+	  
+					
+	  3.  To Fetch All products following link can be use after Authentication of the API
+	      example :  URL/public/api/getproducts
+		  
+					 parameter : Not Applicable 
+					 value : Not Applicable
+					 method : Get
+
+					 
+					 
+	  4.  To Search a product  
+	      example : URL/public/api/search
+		  
+					parameter : product_name 
+					value : [Please provide product name]
+					method : Get
+				
+				
+	  
+	  5.  To update a product  
+		  example : URL/public/api/update_product
+		  
+					parameter : product_name 
+					value : [Please provide product name]
+					
+					parameter : product_price 
+					value : [Please provide product price]
+					
+					method : PUT
+	
+	
+					
+	  6.  To insert a product  
+		  example : URL/public/api/insert_product
+		  
+					parameter : product_name 
+					value : [Please provide product name]
+					
+					parameter : product_price 
+					value : [Please provide product price]
+					
+					method : POST
+					
+					
+					
+	  7.  To delete a product  
+		  example : URL/public/api/del/"+[provide product id]
+		  
+					parameter : Not Applicable 
+					value : Not Applicable
+
+					method : DELETE			
+					
+					
+					
+	  Note : Each operation by this CRUD API needs API Authentication. That means each operation needs to repeat Step 1 and Step 2.
