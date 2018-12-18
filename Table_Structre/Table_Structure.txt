@@ -1,0 +1,17 @@
+
+
+      For Products Table 
+	  
+	  1. id (INT) Auto Increment 
+	  2. name  (varchar 100) [As Product Name ]
+	  3. price (decimal 8,2) 
+	  4. created_at (timestamp) [ Not in use ]
+	  5. updated_at (timestamp) [ Not in use ]
+	  
+	   For Authentication Token Table 
+	  
+	  1. client_id (INT) Auto Increment 
+	  2. token  (varchar 100) [ Token ]
+	  3. created_at (timestamp) [ Not in use ]
+	  4. updated_at (timestamp) [ Not in use ]
+	  
