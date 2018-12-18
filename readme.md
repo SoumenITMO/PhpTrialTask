@@ -30,3 +30,8 @@
 		Step 5.  A test Html, Css and js has given for testing purpose in " test_example " folder. 
 		
 					
+		Note : In The Git repo " PhpTrialTask " there is a folder " Read Me " please follow the instruction for Use and Deployment too.
+		
+		Note :  vendor folder is missing because Git push ignore heavy folder. To get that folder back it needs to run 
+		
+		                " composer install "
