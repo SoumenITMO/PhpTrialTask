@@ -27,6 +27,6 @@
 		            php artisan db:seed
 				   
 		
-		Step 5.  A test Html, Css and js has given for testing purpose in example folder. 
+		Step 5.  A test Html, Css and js has given for testing purpose in " test_example " folder. 
 		
-					Note : 
+					
