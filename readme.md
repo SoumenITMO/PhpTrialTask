@@ -35,3 +35,5 @@
 		Note :  vendor folder is missing because Git push ignore heavy folder. To get that folder back it needs to run 
 		
 		                " composer install "
+                        
+        Table Structure has been included in Table_Structure folder
